@@ -1,9 +1,19 @@
-import React from 'react'
+import React from "react";
+import styled from "styled-components";
 
 const DashSideBoard = () => {
   return (
-    <div>DashSideBoard</div>
-  )
-}
+    <div>
+      <Container>Dashboard Sidebar</Container>
+    </div>
+  );
+};
 
-export default DashSideBoard
+export default DashSideBoard;
+
+const Container = styled.div`
+  height: 100vh;
+  width: 250px;
+  background-color: red;
+  position: fixed;
+`;
